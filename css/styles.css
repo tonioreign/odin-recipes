@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.navbar {
+    background-color: darkgrey;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.navbar-links a {
+    color: white;
+}
+
+.navbar-links a:hover {
+    border: 3px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(243, 250, 250, 0.967);
+    transition: all .2s ease-in-out;
+    color: grey;
+}
+
+.main, .image{
+    text-align: center;
+}
+
+.image {
+    margin: 20px 0;
+}
+
+.image-caption {
+    text-align: center;
+    padding: 0 60px;
+
+}
+
+.fan-favorites {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.recipes ul { 
+    justify-content: space-between;
+    padding: 10px;
+    border: 5px solid grey;
+}
+
+.recipes ul li a:hover {
+    border-bottom: 2px solid rgba(243, 250, 250, 0.5);
+    transition: .3s ease-in-out;
+}
+
+.description {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 5px;
+}

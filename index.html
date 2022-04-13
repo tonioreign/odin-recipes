@@ -5,14 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <nav class="navbar">
+      <div class="logo">Odin Recipes</div>
 
-    <ul>
-      <li><a href="recipes/lasagna.html">Brenda's Lasagna</a></li>
-      <li><a href="recipes/brownies.html">Deb's Passover Brownies</a></li>
-      <li><a href="recipes/tacos.html">Cowboy Tacos</a></li>
-    </ul>
+      <div class="nav navbar-links">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="recipes/lasagna.html">Lasagna</a></li>
+          <li><a href="recipes/brownies.html">Brownies</a></li>
+          <li><a href="recipes/tacos.html">Tacos</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <figure class="main image">
+      <img src="images/chef.jpg" alt="chef" width="500px" />
+      <figcaption class="image-caption">
+        Brett was a culinary chef for 10 years, and still loves using other
+        peoples recipes to experience the different tastes that hits his tongue!
+      </figcaption>
+    </figure>
+
+    <div class="fan-favorites">
+      <h2>Experience Fan Favorites</h2>
+    </div>
+
+    <nav class="nav recipes">
+      <ul>
+        <li><a href="recipes/lasagna.html">Brenda's Lasagna</a></li>
+        <li><a href="recipes/brownies.html">Deb's Passover Brownies</a></li>
+        <li><a href="recipes/tacos.html">Cowboy Tacos</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
